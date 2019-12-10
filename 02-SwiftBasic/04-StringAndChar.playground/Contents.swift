@@ -130,3 +130,15 @@ if let oldVal = airports.updateValue("广东航空", forKey: "GDA") {
 
 let airportCodes = [String](airports.keys)
 
+
+func test(outname inname:String) -> Int
+{
+    guard inname == "hello" else {
+        return 20
+    }
+    print(inname)
+    return 10;
+}
+
+
+print(test(outname: "hello222"))
