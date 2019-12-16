@@ -94,34 +94,38 @@ import UIKit
 //
 ////e1.name = "chaos"
 //e1.name
+//
+//struct Person
+//{
+//    var name:String = "未知"
+//    {
+//        willSet(new_value)
+//        {
+//            print("willSet - "+new_value)
+//        }
+//
+//        didSet(old_value)
+//        {
+//            print("old_value - "+old_value)
+//
+//        }
+//    }
+//
+//    private var os:[String] = ["android","iso"]
+//
+//    subscript(index:Int,param:String)->String
+//    {
+//
+//    }
+//
+//}
+//
+//var p1 = Person()
+//
+//p1.name = "hello"
+//
+//print(p1.name)
 
-struct Person
-{
-    var name:String = "未知"
-    {
-        willSet(new_value)
-        {
-            print("willSet - "+new_value)
-        }
-        
-        didSet(old_value)
-        {
-            print("old_value - "+old_value)
 
-        }
-    }
-    
-    private var os:[String] = ["android","iso"]
-    
-    subscript(index:Int,param:String)->String
-    {
-         
-    }
-    
-}
 
-var p1 = Person()
 
-p1.name = "hello"
-
-print(p1.name)
